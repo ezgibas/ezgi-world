@@ -18,7 +18,7 @@ export default function Home() {
       </header>
       <main className={styles.main}>
       <div className="intro" style={{display: "flex"}}>
-        <div className="egg image">
+        <div className="egg image" style={{margin: 10}}>
         <img src="/pics/egg.jpg" alt="a smiling egg plushie" placeholder="blur" width={200}/>
         </div>
         <div className="intro text">     
@@ -41,7 +41,7 @@ export default function Home() {
               <h3>
                 {" "}
                 <Link href="./business">
-                  <a>business </a>
+                  <a>business</a>
                 </Link>
               </h3>
             }
@@ -57,7 +57,6 @@ export default function Home() {
   )
 }
 
-const cardStyle = {};
 
 function Greeting(props) {
   return <div></div>;
@@ -69,7 +68,7 @@ function MakePaper(props) {
     <Box
       style={
         {
-        display: "flex",
+        display: "flex"
       }}>
       <Paper rounded="true" elevation={2} className={styles.card} >
         <div>{props.contents}</div>

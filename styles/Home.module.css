@@ -79,18 +79,20 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: inherit;
+  background-color: var(--base-pink);
   text-decoration: none;
   border: 0px solid #eaeaea;
   border-radius: 7px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  display: "flex";
+  
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: var(--accent-pink);
   border-color: #0070f3;
 }
 
