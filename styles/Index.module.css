@@ -73,6 +73,41 @@
   max-width: 800px;
 }
 
+.buttonContainer {
+  display: grid
+}
+
+.buttonContainer .defaultButton {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  border: 1px solid black;
+}
+
+.defaultButton:hover .buttonImg {
+  display: none;
+}
+
+.buttonContainer .hide {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 0;
+  display: grid;
+  border: 1px solid black;
+
+}
+
+.buttonLink {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.hide .buttonImg {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -86,7 +121,7 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
   display: "flex";
-  
+
 }
 
 .card:hover,

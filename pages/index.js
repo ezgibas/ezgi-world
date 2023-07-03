@@ -20,7 +20,6 @@ export default function Home() {
           </div>
           <div className="intro text">
             <PinkButton text="Button 1"></PinkButton>
-            <PinkButton text="Big Text"></PinkButton>
             <h1>Hi, I'm Ezgi.</h1>
 
           </div>
