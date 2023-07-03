@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import styles from '../styles/Index.module.css'
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
@@ -7,24 +6,19 @@ import PinkButton from "../public/ui/PinkButton"
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>website</title>
-      </Head>
-      <header>
-        <div className={styles.header} />
-      </header>
       <main className={styles.main}>
         <div className="intro" style={{ display: "flex" }}>
           <div className="egg image" style={{ margin: 10 }}>
             <img src="/pics/egg.jpg" alt="a smiling egg plushie" placeholder="blur" width={200} />
           </div>
           <div className="intro text">
-            <PinkButton text="1 button" href="/party"></PinkButton>
-            <PinkButton text="abcde" href="/party"></PinkButton>
-            <PinkButton text="Button 1" href="/party"></PinkButton>
-            <PinkButton text="Button hello" href="/party"></PinkButton>
-            <h1>Hi, I'm Ezgi.</h1>
-
+            <h1>Hi, I'm Ezgi :)</h1>
+            <p>Here's a list of things that I'm currently working on:</p>
+            <ul>
+              <li>Building this website!</li>
+              <li>Learning about traditional Turkish music</li>
+              <li>Learning Rust</li>
+            </ul>
           </div>
         </div>
       </main>
@@ -33,29 +27,4 @@ export default function Home() {
       </footer>
     </div>
   )
-}
-
-
-function Greeting(props) {
-  return <div></div>;
-}
-
-function MakePaper(props) {
-  return (
-    <div>
-      <Box
-        style={
-          {
-            display: "flex"
-          }}>
-        <Paper rounded="true" elevation={2} className={styles.card} >
-          <div>{props.contents}</div>
-        </Paper>
-      </Box>
-      <div style={{
-        display: "block",
-        paddingBottom: '100%',
-      }} />
-    </div>
-  );
 }
