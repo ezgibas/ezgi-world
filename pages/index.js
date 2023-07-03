@@ -19,7 +19,10 @@ export default function Home() {
             <img src="/pics/egg.jpg" alt="a smiling egg plushie" placeholder="blur" width={200} />
           </div>
           <div className="intro text">
-            <PinkButton text="Button 1"></PinkButton>
+            <PinkButton text="1 button" href="/party"></PinkButton>
+            <PinkButton text="abcde" href="/party"></PinkButton>
+            <PinkButton text="Button 1" href="/party"></PinkButton>
+            <PinkButton text="Button hello" href="/party"></PinkButton>
             <h1>Hi, I'm Ezgi.</h1>
 
           </div>
