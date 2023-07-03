@@ -81,31 +81,23 @@
   grid-column: 1;
   grid-row: 1;
   z-index: 1;
-  border: 1px solid black;
-}
-
-.defaultButton:hover .buttonImg {
-  display: none;
 }
 
 .buttonContainer .hide {
   grid-column: 1;
   grid-row: 1;
-  z-index: 0;
+  z-index: 2;
+  display: none;
+}
+
+.buttonContainer:hover .hide {
   display: grid;
-  border: 1px solid black;
-
 }
 
-.buttonLink {
-  grid-column: 1;
-  grid-row: 1;
-}
 
-.hide .buttonImg {
-  grid-column: 1;
-  grid-row: 1;
-}
+
+
+
 
 
 .card {
