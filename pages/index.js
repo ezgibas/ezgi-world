@@ -1,6 +1,4 @@
 import styles from '../styles/Index.module.css'
-import Paper from "@mui/material/Paper";
-import Box from "@mui/material/Box";
 import PinkButton from "../public/ui/PinkButton"
 
 export default function Home() {
@@ -9,18 +7,44 @@ export default function Home() {
       <main className={styles.main}>
         <div className="intro">
           <div>
-            <div>
+            <div className={styles.defaultCentered}>
               <h1 id={styles.headerName}>ezgi</h1>
               <a id={styles.headerDom} href="/">.world</a>
             </div>
             <div class={styles.defaultCentered}>
-              <PinkButton text="About Me" href="/party" />
-              <PinkButton text="Projects" />
-              <PinkButton text="See More" />
+              <PinkButton text="About Me" href="/about" />
+              <PinkButton text="Projects" href="/projects" />
+              <PinkButton text="See More" href="/more" />
             </div>
             <a href="/party">
-              <p>© Ezgi Baş 2023</p>
+              <p style={{ "fontFamily": "'Press Start 2P', cursive" }}>© Ezgi Baş 2023</p>
             </a>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
+            sldkf
+            <br></br>
           </div>
         </div>
       </main>

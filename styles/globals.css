@@ -34,6 +34,12 @@ p {
   text-align: center;
 }
 
+* {
+  color: var(--text);
+  /* border: 2px solid black; */
+  text-align: center;
+}
+
 .app {
   background-color: var(--text);
   display: flex;
