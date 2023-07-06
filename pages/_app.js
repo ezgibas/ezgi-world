@@ -11,7 +11,9 @@ function MyApp({ Component, pageProps }) {
       <header>
         <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet"></link>
       </header>
-      <Component {...pageProps} />
+      <div class="app">
+        <Component class="display" {...pageProps} />
+      </div>
     </div>
   )
 }

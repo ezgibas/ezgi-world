@@ -7,24 +7,24 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <div className="intro" style={{ display: "flex" }}>
-          <div className="egg image" style={{ margin: 10 }}>
-            <img src="/pics/egg.jpg" alt="a smiling egg plushie" placeholder="blur" width={200} />
-          </div>
-          <div className="intro text">
-            <h1>Hi, I'm Ezgi :)</h1>
-            <p>Here's a list of things that I'm currently working on:</p>
-            <ul>
-              <li>Building this website!</li>
-              <li>Learning about traditional Turkish music</li>
-              <li>Learning Rust</li>
-            </ul>
+        <div className="intro">
+          <div>
+            <div>
+              <h1 id={styles.headerName}>ezgi</h1>
+              <a id={styles.headerDom} href="/">.world</a>
+            </div>
+            <div class={styles.defaultCentered}>
+              <PinkButton text="About Me" href="/party" />
+              <PinkButton text="Projects" />
+              <PinkButton text="See More" />
+            </div>
+            <a href="/party">
+              <p>© Ezgi Baş 2023</p>
+            </a>
           </div>
         </div>
       </main>
-      <footer className={styles.footer}>
-        hey! this website is in progress! hopefully it will be super cool when it's done!
-      </footer>
+
     </div>
   )
 }

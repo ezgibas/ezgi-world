@@ -1,9 +1,11 @@
 .container {
-  padding: 0 2rem;
+  height: 700px;
+  width: 750px;
+  background-color: var(--base-light);
+  border: 2px solid black;
 }
 
 .main {
-  min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -73,14 +75,30 @@
   max-width: 800px;
 }
 
+/* STYLE FOR CUSTOM BUTTONS */
+
 .buttonContainer {
-  display: grid
+  display: grid;
+  width: 75%;
 }
 
 .buttonContainer .defaultButton {
   grid-column: 1;
   grid-row: 1;
   z-index: 1;
+}
+
+
+.buttonLink {
+  font-size: 18pt;
+  width: 80%;
+  height: 90%;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttonContainer .hide {
@@ -94,6 +112,7 @@
   display: grid;
 }
 
+/* END STYLE FOR CUSTOM BUTTONS */
 
 
 
@@ -152,7 +171,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  height: 100vh;
   margin: 0;
+}
+
+/* STYLE FOR HOMEPAGE HEADER */
+
+#headerName {
+  font-size: 75pt;
+  margin: 0px;
+}
+
+#headerDom {
+  font-size: 55pt;
 }
