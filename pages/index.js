@@ -1,5 +1,5 @@
 import styles from '../styles/Index.module.css'
-import PinkButton from "../public/ui/PinkButton"
+import PinkButton from "../components/ui/PinkButton"
 
 export default function Home() {
   return (

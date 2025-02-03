@@ -10,7 +10,7 @@ export default function CustomAccordion(props) {
     const title = props.title;
     const text = props.text;
     return (
-        <Accordion className={styles.textContainer}>
+        <Accordion className={styles.accordion}>
         <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1-content"

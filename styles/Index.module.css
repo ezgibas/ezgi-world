@@ -6,6 +6,10 @@
 }
 
 .textContainer {
+  width: 80%;
+}
+
+.accordion {
   height: 100%;
   width: 100%;
   background-color: var(--base-yellow-light);
