@@ -1,7 +1,14 @@
 .container {
-  height: 700px;
-  width: 750px;
+  height: 100%;
+  width: 100%;
   background-color: var(--base-light);
+  overflow-y: scroll;
+}
+
+.textContainer {
+  height: 100%;
+  width: 100%;
+  background-color: var(--base-yellow-light);
   overflow-y: scroll;
 }
 
@@ -53,9 +60,10 @@
 }
 
 .description {
-  margin: 4rem 0;
+  /* margin: 4rem 0; */
   line-height: 1.5;
   font-size: 1.5rem;
+  font-family: 'Recursive';
 }
 
 .code {

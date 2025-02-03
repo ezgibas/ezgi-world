@@ -13,38 +13,12 @@ export default function Home() {
             </div>
             <div class={styles.defaultCentered}>
               <PinkButton text="About Me" href="/about" />
-              <PinkButton text="Projects" href="/projects" />
-              <PinkButton text="See More" href="/more" />
+              <PinkButton text="Work" href="/work" />
+              <PinkButton text="More" href="/more" />
             </div>
             <a href="/party">
-              <p style={{ "fontFamily": "'Press Start 2P', cursive" }}>© Ezgi Baş 2023</p>
+              <p style={{ "fontFamily": "'Press Start 2P', cursive" }}>© Ezgi Baş 2025</p>
             </a>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
-            sldkf
-            <br></br>
           </div>
         </div>
       </main>
